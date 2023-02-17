@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's dive into JS - Java Script</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+    <h1 id="page-title">Welcome to Javascript</h1>
+
+
+    <div class="input-field">
+        <label for="carrots">carrots</label>
+        <input type="number" id="carrots">
+
+        <button onclick="storage.addSingle(this,'carrots')">Add From Input</button>
+        <button onclick="storage.addSinglePredefined('carrots', 100)">Add 100</button>
+        <button onclick="storage.addSinglePredefined('carrots', 1000)">Add 1000</button>
+        <button onclick="storage.addSinglePredefined('carrots', 10000)">Add 10000</button>
+    </div>
+
+
+    <div class="input-field">
+        <label for="potatoes">potatoes</label>
+        <input type="number" id="potatoes">
+        
+        <button onclick="storage.addSingle(this,'potatoes')">Add From Input</button>
+        <button onclick="storage.addSinglePredefined('potatoes', 100)">Add 100</button>
+        <button onclick="storage.addSinglePredefined('potatoes', 1000)">Add 1000</button>
+        <button onclick="storage.addSinglePredefined('potatoes', 10000)">Add 10000</button>
+    </div>
+
+    <div class="input-field">
+        <label for="tomatoes">tomatoes</label>
+        <input type="number" id="tomatoes">
+        
+        <button onclick="storage.addSingle(this,'tomatoes')">Add From Input</button>
+        <button onclick="storage.addSinglePredefined('tomatoes', 100)">Add 100</button>
+        <button onclick="storage.addSinglePredefined('tomatoes', 1000)">Add 1000</button>
+        <button onclick="storage.addSinglePredefined('tomatoes', 10000)">Add 10000</button>
+    </div>
+
+    <div class="input-field">
+        <label for="gurkis">Gurki</label>
+        <input type="number">
+        
+        <button onclick="storage.addSingle(this,'gurkis')">Add From Input</button>
+        <button onclick="storage.addSinglePredefined('gurkis', 100)">Add 100</button>
+        <button onclick="storage.addSinglePredefined('gurkis', 1000)">Add 1000</button>
+        <button onclick="storage.addSinglePredefined('gurkis', 10000)">Add 10000</button>
+    </div>
+
+    <div class="input-field">
+        <label for="kirbis">Kirbji</label>
+        <input type="number" id="kirbis">
+        
+        <button onclick="storage.addSingle(this,'kirbis')">Add From Input</button>
+        <button onclick="storage.addSinglePredefined('kirbis', 100)">Add 100</button>
+        <button onclick="storage.addSinglePredefined('kirbis', 1000)">Add 1000</button>
+        <button onclick="storage.addSinglePredefined('kirbis', 10000)">Add 10000</button>
+    </div>
+
+    <button onclick="storage.seeAll()">LOG ALL STORAGE</button>
+
+    <script src="scripts/storage.js"></script>
+
+</body>
+</html>

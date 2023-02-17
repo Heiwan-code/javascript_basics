@@ -1,0 +1,14 @@
+.btn {
+    &--primary {
+        border: 1px solid $primaryAccent;
+        border-radius: 5px;
+        padding: 3px;
+        color: $primaryAccent;
+        width: 60px;
+        transition: width 0.55s ease-in;
+        &:hover {
+            cursor: pointer;
+            width: 200px;
+        }
+    }
+}
